@@ -2,16 +2,9 @@
 // Senior Scam Shield — interactions
 // =========================================================
 
-// Single source of truth for the checkout link
-const CHECKOUT_URL = "https://gumroad.com/";
-
-// Wire every [data-checkout] element to the checkout URL.
-// Opens in a new tab with safe rel attributes.
-document.querySelectorAll('[data-checkout]').forEach(el => {
-  el.setAttribute('href', CHECKOUT_URL);
-  el.setAttribute('target', '_blank');
-  el.setAttribute('rel', 'noopener noreferrer');
-});
+// Checkout buttons have their href, target, and rel set directly in the HTML
+// (https://seniorscamshield.gumroad.com/l/kubmg). No JS override here — that
+// would clobber the real product URL.
 
 // Accordion (How it works + FAQ)
 document.querySelectorAll('[data-accordion]').forEach(group => {

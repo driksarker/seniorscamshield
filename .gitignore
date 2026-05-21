@@ -1,0 +1,17 @@
+# Build artifacts
+seniorscamshield-deploy.zip
+*.zip
+
+# Local backups / rollback safety nets
+public/assets/doodles/_backup/
+
+# Dev-time one-shot scripts
+_*.py
+_*.png
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
