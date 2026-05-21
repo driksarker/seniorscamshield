@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Senior Scam Shield — Helping seniors feel safe online</title>
+<meta name="description" content="Weekly scam alerts and personal message checks for older adults and the families who care about them. $5/month. Real humans, not bots." />
+<meta name="theme-color" content="#34A652" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="canonical" href="https://seniorscamshield.io/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Senior Scam Shield" />
+<meta property="og:title" content="Senior Scam Shield — Helping seniors feel safe online" />
+<meta property="og:description" content="Weekly scam alerts and personal message checks for older adults and the families who care about them. $5/month. Real humans, not bots." />
+<meta property="og:url" content="https://seniorscamshield.io/" />
+<meta property="og:image" content="https://seniorscamshield.io/public/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Senior Scam Shield — weekly scam alerts and real-human message checks for $5/month" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Senior Scam Shield — Helping seniors feel safe online" />
+<meta name="twitter:description" content="Weekly scam alerts and personal message checks for older adults and their families. $5/month. Real humans, not bots." />
+<meta name="twitter:image" content="https://seniorscamshield.io/public/og-image.png" />
+<meta name="twitter:image:alt" content="Senior Scam Shield — weekly scam alerts and real-human message checks for $5/month" />
+
+<!-- Favicon -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+<!-- Fonts + critical asset preload -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://gumroad.com" />
+<link rel="dns-prefetch" href="https://seniorscamshield.gumroad.com" />
+<link rel="preload" as="image" href="public/assets/doodles/1.webp" fetchpriority="high" />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Caveat:wght@500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://seniorscamshield.io/#organization",
+      "name": "Senior Scam Shield",
+      "url": "https://seniorscamshield.io/",
+      "logo": "https://seniorscamshield.io/public/logo.svg",
+      "email": "seniorscamshield@gmail.com",
+      "description": "A scam-protection service for older adults that provides weekly scam alerts and real-human review of suspicious messages.",
+      "founder": [
+        { "@id": "https://seniorscamshield.io/#arian" },
+        { "@id": "https://seniorscamshield.io/#drik" }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "seniorscamshield@gmail.com",
+        "availableLanguage": ["English"]
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://seniorscamshield.io/#arian",
+      "name": "Arian",
+      "jobTitle": "Founder, Senior Scam Shield",
+      "description": "Tracks fraud patterns and scam trends targeting older Americans.",
+      "worksFor": { "@id": "https://seniorscamshield.io/#organization" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://seniorscamshield.io/#drik",
+      "name": "Drik",
+      "jobTitle": "Co-Founder, Senior Scam Shield",
+      "description": "Shapes the mission behind Senior Scam Shield: making scam protection simple, human, and affordable for older adults and their families.",
+      "worksFor": { "@id": "https://seniorscamshield.io/#organization" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://seniorscamshield.io/#website",
+      "url": "https://seniorscamshield.io/",
+      "name": "Senior Scam Shield",
+      "publisher": { "@id": "https://seniorscamshield.io/#organization" },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Service",
+      "name": "Senior Scam Shield Subscription",
+      "provider": { "@id": "https://seniorscamshield.io/#organization" },
+      "serviceType": "Scam protection and alerts",
+      "areaServed": { "@type": "Country", "name": "United States" },
+      "audience": { "@type": "PeopleAudience", "suggestedMinAge": 55 },
+      "description": "Weekly scam alerts and real-human review of suspicious texts, emails, and messages for older adults and their families.",
+      "offers": {
+        "@type": "Offer",
+        "price": "5.00",
+        "priceCurrency": "USD",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": "5.00",
+          "priceCurrency": "USD",
+          "unitText": "MONTH"
+        },
+        "availability": "https://schema.org/InStock",
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to start protecting a senior from online scams",
+      "description": "Three steps to subscribe, receive weekly alerts, and get suspicious messages reviewed by a real person.",
+      "totalTime": "PT2M",
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "USD",
+        "value": "5.00"
+      },
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Subscribe in 2 minutes",
+          "text": "Join for $5/month and get setup instructions for WhatsApp and email. No apps to install, no settings to figure out.",
+          "url": "https://seniorscamshield.io/#how-it-works"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Receive weekly alerts",
+          "text": "Every week, get a short plain-English alert about scams to watch for — the ones actually targeting older adults right now.",
+          "url": "https://seniorscamshield.io/#how-it-works"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Send anything suspicious",
+          "text": "Forward screenshots or messages whenever you are unsure. Get a clear answer within 24 hours — written like a friend would.",
+          "url": "https://seniorscamshield.io/#how-it-works"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Senior Scam Shield?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Senior Scam Shield is a simple scam-protection service for older Americans and their families. For $5/month, members receive weekly scam alerts and can send suspicious texts, emails, or messages for a real person to review."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I get for $5/month?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You get weekly scam alerts, up to 3 suspicious message checks per week, WhatsApp and email support, a real human review, and a response within 24 hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do the screenshot checks work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When you receive something suspicious, take a screenshot and send it through WhatsApp or email. We review it and tell you in plain English whether it looks safe or suspicious, and what you should do next."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I buy this for my parent or grandparent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Many people subscribe for a loved one. You can help them get set up, and they can send suspicious messages whenever they are unsure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you guarantee I will never be scammed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No service can guarantee that. Senior Scam Shield helps reduce risk by giving you timely alerts and a trusted person to ask before taking action."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- =============== HEADER =============== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="brand" aria-label="Senior Scam Shield home">
+      <img src="public/logo.svg" alt="" class="brand-mark" width="40" height="40" />
+      <span class="brand-name">Senior Scam Shield</span>
+    </a>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <a href="#about">About us</a>
+      <a href="#protection">Protection</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#pricing">Pricing</a>
+      <a href="blog/">Blog</a>
+      <a href="https://seniorscamshield.gumroad.com/l/kubmg" class="mobile-join btn btn-primary btn-sm" data-checkout target="_blank" rel="noopener">Join now</a>
+    </nav>
+
+    <a href="https://seniorscamshield.gumroad.com/l/kubmg" class="btn btn-outline btn-sm desktop-join" data-checkout target="_blank" rel="noopener">Join now</a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- =============== HERO =============== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="eyebrow-dot"></span> A real person on your side</span>
+      <h1 class="display">
+        Helping seniors
+        <span class="hl">feel safe<svg class="underline-doodle" viewBox="0 0 280 18" aria-hidden="true"><path d="M2 12 C 50 2, 130 2, 278 9" fill="none" stroke="#181818" stroke-width="4" stroke-linecap="round"/></svg></span>
+        online.
+      </h1>
+      <p class="lede">
+        Weekly scam alerts and personal message checks for older adults
+        and the families who care about them.
+      </p>
+      <div class="cta-row">
+        <a href="https://seniorscamshield.gumroad.com/l/kubmg" class="btn btn-primary" data-checkout target="_blank" rel="noopener">
+          Join for $5/month
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <span class="micro-note">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8.5" fill="none" stroke="#181818" stroke-width="1.5"/><path d="M6 10.5l2.5 2.5L14 8" fill="none" stroke="#181818" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Cancel anytime · 30-day money-back guarantee
+        </span>
+      </div>
+    </div>
+
+    <!-- Hero illustration -->
+    <div class="hero-art">
+      <!-- Subtle orbit decorations behind the doodle -->
+      <svg class="hero-orbits" viewBox="0 0 560 560" aria-hidden="true">
+        <ellipse cx="280" cy="280" rx="240" ry="210" fill="none" stroke="#181818" stroke-width="2"
+                 stroke-dasharray="2 8" transform="rotate(-12 280 280)" opacity=".5"/>
+        <path d="M40 290 C 100 130, 460 130, 520 280" fill="none" stroke="#181818" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+        <g fill="#181818" opacity=".75">
+          <path d="M90 130 l4 8 8 4 -8 4 -4 8 -4 -8 -8 -4 8 -4z"/>
+          <path d="M470 100 l5 10 10 5 -10 5 -5 10 -5 -10 -10 -5 10 -5z"/>
+          <path d="M500 410 l3 6 6 3 -6 3 -3 6 -3 -6 -6 -3 6 -3z"/>
+        </g>
+        <circle cx="120" cy="430" r="6" fill="#34A652" stroke="#181818" stroke-width="2"/>
+        <circle cx="510" cy="200" r="5" fill="#34A652" stroke="#181818" stroke-width="2"/>
+      </svg>
+
+      <img class="doodle doodle-hero" src="public/assets/doodles/1.webp"
+           alt="Friendly shield with checkmark — Senior Scam Shield mascot" width="612" height="408" />
+
+      <span class="hero-handnote">a friendly check before you click</span>
+    </div>
+  </div>
+</section>
+
+<!-- =============== TRUST STRIP =============== -->
+<section class="trust-strip" aria-label="Why families trust us">
+  <div class="container">
+    <div class="trust-track">
+      <span class="trust-item"><img class="doodle doodle-small" src="public/assets/doodles/9.webp" alt="" loading="lazy" width="500" height="500"/> Real human review</span>
+      <span class="trust-sep">✦</span>
+      <span class="trust-item"><img class="doodle doodle-small" src="public/assets/doodles/7.webp" alt="" loading="lazy" width="500" height="500"/> WhatsApp &amp; email</span>
+      <span class="trust-sep">✦</span>
+      <span class="trust-item"><img class="doodle doodle-small" src="public/assets/doodles/5.webp" alt="" loading="lazy" width="500" height="500"/> 24-hour response</span>
+      <span class="trust-sep">✦</span>
+      <span class="trust-item"><img class="doodle doodle-small" src="public/assets/doodles/2.webp" alt="" loading="lazy" width="500" height="500"/> 30-day guarantee</span>
+      <span class="trust-sep">✦</span>
+      <span class="trust-item"><img class="doodle doodle-small" src="public/assets/doodles/3.webp" alt="" loading="lazy" width="500" height="500"/> Built for over 55s</span>
+    </div>
+  </div>
+</section>
+
+<!-- =============== PROTECTION =============== -->
+<section class="section section-protection" id="protection">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Protection</span>
+      <h2 class="section-title">
+        Simple scam help, <em>without</em><br />
+        complicated apps.
+      </h2>
+      <p class="section-sub">Four small things that make a big difference, every week.</p>
+    </div>
+
+    <div class="card-grid">
+      <!-- Card 1: Weekly Scam Alerts (cream) -->
+      <article class="card card-cream">
+        <img class="doodle doodle-card" src="public/assets/doodles/5.webp" alt="Message bubble with checkmark" loading="lazy" width="500" height="500"/>
+        <h3 class="card-title">Weekly Scam Alerts</h3>
+        <p>Plain-English updates about current scams targeting seniors, sent through email and WhatsApp.</p>
+        <a class="learn-more" href="#how-it-works">Learn more
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <!-- Card 2: Screenshot Checks (lime) -->
+      <article class="card card-lime">
+        <img class="doodle doodle-card" src="public/assets/doodles/8.webp" alt="Magnifying glass checking a suspicious link" loading="lazy" width="500" height="500"/>
+        <h3 class="card-title">Screenshot Checks</h3>
+        <p>Send suspicious texts, emails, or messages. A real person reviews them and explains what to do next.</p>
+        <a class="learn-more" href="#how-it-works">Learn more
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <!-- Card 3: Human Review (black) -->
+      <article class="card card-black">
+        <img class="doodle doodle-card" src="public/assets/doodles/9.webp" alt="Real human review badge" loading="lazy" width="500" height="500"/>
+        <h3 class="card-title">Human Review</h3>
+        <p>No confusing bots or automated replies. You get a clear answer from a real person.</p>
+        <a class="learn-more learn-more-light" href="#about">Learn more
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <!-- Card 4: Family Peace of Mind (cream) -->
+      <article class="card card-cream">
+        <img class="doodle doodle-card" src="public/assets/doodles/3.webp" alt="Family support illustration" loading="lazy" width="500" height="500"/>
+        <h3 class="card-title">Family Peace of Mind</h3>
+        <p>Subscribe for yourself, a parent, or a grandparent so they always have someone to ask.</p>
+        <a class="learn-more" href="#pricing">Learn more
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =============== HOW IT WORKS =============== -->
+<section class="section section-how" id="how-it-works">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">How it works</span>
+      <h2 class="section-title">Three simple steps<br/>to stay protected.</h2>
+    </div>
+
+    <div class="accordion" data-accordion>
+      <!-- Step 1 - lime, open by default -->
+      <div class="acc-row acc-lime is-open">
+        <button class="acc-head" aria-expanded="true">
+          <span class="acc-num">01</span>
+          <img class="doodle acc-doodle-inline" src="public/assets/doodles/7.webp" alt="" loading="lazy" width="500" height="500"/>
+          <span class="acc-title">Subscribe in 2 minutes</span>
+          <span class="acc-icon" aria-hidden="true">
+            <svg class="acc-plus" viewBox="0 0 28 28"><circle cx="14" cy="14" r="13" fill="#FFFFFF" stroke="#181818" stroke-width="2"/><path d="M14 8v12M8 14h12" stroke="#181818" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-grid">
+            <p>Join for <strong>$5/month</strong> and get setup instructions for WhatsApp and email. We'll walk you through it — no apps to install, no settings to figure out.</p>
+            <div class="acc-doodle">
+              <img class="doodle" src="public/assets/doodles/6.webp" alt="Envelope with sparkle — setup arrives by email and WhatsApp" loading="lazy" width="500" height="500"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="acc-row">
+        <button class="acc-head" aria-expanded="false">
+          <span class="acc-num">02</span>
+          <img class="doodle acc-doodle-inline" src="public/assets/doodles/5.webp" alt="" loading="lazy" width="500" height="500"/>
+          <span class="acc-title">Receive weekly alerts</span>
+          <span class="acc-icon" aria-hidden="true">
+            <svg class="acc-plus" viewBox="0 0 28 28"><circle cx="14" cy="14" r="13" fill="#34A652" stroke="#181818" stroke-width="2"/><path d="M14 8v12M8 14h12" stroke="#181818" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-grid">
+            <p>Every week, you'll get a short plain-English alert about scams to watch for — the ones actually targeting older adults right now.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="acc-row">
+        <button class="acc-head" aria-expanded="false">
+          <span class="acc-num">03</span>
+          <img class="doodle acc-doodle-inline" src="public/assets/doodles/10.webp" alt="" loading="lazy" width="500" height="500"/>
+          <span class="acc-title">Send anything suspicious</span>
+          <span class="acc-icon" aria-hidden="true">
+            <svg class="acc-plus" viewBox="0 0 28 28"><circle cx="14" cy="14" r="13" fill="#34A652" stroke="#181818" stroke-width="2"/><path d="M14 8v12M8 14h12" stroke="#181818" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="acc-body">
+          <div class="acc-body-grid">
+            <p>Forward screenshots or messages whenever you are unsure. You get a clear answer within 24 hours — written like a friend would.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== SCAM EXAMPLES =============== -->
+<section class="section section-examples" id="scams">
+  <div class="container">
+    <div class="examples-card">
+      <div class="examples-head">
+        <h2 class="examples-title">Scams we help seniors spot</h2>
+        <p class="examples-sub">A few of the most common ones we see every single week.</p>
+      </div>
+
+      <div class="examples-grid">
+        <article class="example">
+          <div class="icon-tile">
+            <img src="public/assets/doodles/10.webp" alt="" loading="lazy" width="500" height="500"/>
+          </div>
+          <div class="example-num">01</div>
+          <h3>Social Security scam</h3>
+          <p>"Your number has been suspended" calls and texts demanding you call back or pay a fine immediately.</p>
+          <a href="#faq" class="learn-more learn-more-lime">Learn more
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+        <article class="example">
+          <div class="icon-tile">
+            <img src="public/assets/doodles/6.webp" alt="" loading="lazy" width="500" height="500"/>
+          </div>
+          <div class="example-num">02</div>
+          <h3>Fake Medicare renewal</h3>
+          <p>Emails asking you to "renew your card" or confirm Social Security details on a real-looking website.</p>
+          <a href="#faq" class="learn-more learn-more-lime">Learn more
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+        <article class="example">
+          <div class="icon-tile">
+            <img src="public/assets/doodles/8.webp" alt="" loading="lazy" width="500" height="500"/>
+          </div>
+          <div class="example-num">03</div>
+          <h3>Suspicious bank or Amazon message</h3>
+          <p>"We noticed a charge of $749 on your account" texts that push you to click a link or call a number.</p>
+          <a href="#faq" class="learn-more learn-more-lime">Learn more
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+
+        <article class="example">
+          <div class="icon-tile">
+            <img src="public/assets/doodles/4.webp" alt="" loading="lazy" width="500" height="500"/>
+          </div>
+          <div class="example-num">04</div>
+          <h3>Suspicious phone calls</h3>
+          <p>Robocalls and "tech support" callers pressuring you to share passwords, gift card codes, or bank details.</p>
+          <a href="#faq" class="learn-more learn-more-lime">Learn more
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== FOUNDERS =============== -->
+<section class="section section-founders" id="about">
+  <div class="container">
+    <div class="section-header section-header-row">
+      <div>
+        <span class="section-eyebrow">Real people</span>
+        <h2 class="section-title">Real people<br/>behind the shield.</h2>
+        <p class="section-sub">Not a chatbot. Not a call center. The two people building this service.</p>
+      </div>
+      <img class="doodle doodle-seal" src="public/assets/doodles/9.webp"
+           alt="Real human support seal" loading="lazy" width="500" height="500"/>
+    </div>
+
+    <div class="founder-grid">
+      <article class="founder">
+        <div class="founder-top">
+          <div class="avatar" aria-hidden="true">A</div>
+          <div class="badge">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Real human support
+          </div>
+        </div>
+        <h3>Arian — The Data Guy</h3>
+        <div class="founder-role">Founder, Senior Scam Shield</div>
+        <p>Arian tracks fraud patterns and scam trends targeting older Americans. He started Senior Scam Shield to give seniors a simple, affordable way to ask a real person before they click, call, reply, or send money.</p>
+      </article>
+
+      <article class="founder">
+        <div class="founder-top">
+          <div class="avatar avatar-dark" aria-hidden="true">D</div>
+          <div class="badge">
+            <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5 8.5l2 2 4-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Real human support
+          </div>
+        </div>
+        <h3>Drik — The Protection Guy</h3>
+        <div class="founder-role">Co-Founder, Senior Scam Shield</div>
+        <p>Drik helps shape the mission behind Senior Scam Shield: making scam protection simple, human, and affordable for older adults and the families who care about them.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =============== TESTIMONIALS =============== -->
+<section class="section section-reviews" id="reviews">
+  <div class="container">
+    <div class="reviews-card">
+      <div class="reviews-head">
+        <div>
+          <span class="section-eyebrow eyebrow-light">Reviews</span>
+          <h2 class="reviews-title">What members and<br/>families say.</h2>
+        </div>
+        <img class="doodle doodle-accent reviews-accent" src="public/assets/doodles/2.webp"
+             alt="" loading="lazy" width="500" height="500"/>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review">
+          <div class="stars" aria-label="5 stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <blockquote>
+            "I got a text saying my Social Security was suspended. I sent a screenshot and got a clear answer before I made a mistake."
+          </blockquote>
+          <footer class="review-author">
+            <span class="review-avatar">D</span>
+            <div><strong>Dorothy M.</strong><span>Member, age 72</span></div>
+          </footer>
+        </article>
+
+        <article class="review review-lime">
+          <div class="stars" aria-label="5 stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <blockquote>
+            "The weekly alerts are easy to understand. I like knowing what scams are going around before they reach me."
+          </blockquote>
+          <footer class="review-author">
+            <span class="review-avatar">R</span>
+            <div><strong>Robert J.</strong><span>Member, age 68</span></div>
+          </footer>
+        </article>
+
+        <article class="review">
+          <div class="stars" aria-label="5 stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <blockquote>
+            "I subscribed for my mother. She feels more confident knowing there is someone she can ask."
+          </blockquote>
+          <footer class="review-author">
+            <span class="review-avatar">L</span>
+            <div><strong>Linda K.</strong><span>Family member</span></div>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== FAQ =============== -->
+<section class="section section-faq" id="faq">
+  <div class="container faq-layout">
+    <div class="faq-side">
+      <span class="section-eyebrow">FAQ</span>
+      <h2 class="section-title">Frequently asked<br/>questions.</h2>
+      <p class="section-sub">Still wondering something? <a href="mailto:seniorscamshield@gmail.com">Send us an email</a> — a real person answers.</p>
+      <img class="doodle doodle-section faq-doodle" src="public/assets/doodles/10.webp"
+           alt="Question mark turning into a checkmark" loading="lazy" width="500" height="500"/>
+    </div>
+
+    <div class="faq-list" data-accordion>
+      <div class="faq-row">
+        <button class="faq-q" aria-expanded="false">
+          <span>What is Senior Scam Shield?</span>
+          <span class="faq-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
+        <div class="faq-a"><p>Senior Scam Shield is a simple scam-protection service for older Americans and their families. For $5/month, members receive weekly scam alerts and can send suspicious texts, emails, or messages for a real person to review.</p></div>
+      </div>
+
+      <div class="faq-row">
+        <button class="faq-q" aria-expanded="false">
+          <span>What do I get for $5/month?</span>
+          <span class="faq-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
+        <div class="faq-a"><p>You get weekly scam alerts, up to 3 suspicious message checks per week, WhatsApp and email support, a real human review, and a response within 24 hours.</p></div>
+      </div>
+
+      <div class="faq-row">
+        <button class="faq-q" aria-expanded="false">
+          <span>How do the screenshot checks work?</span>
+          <span class="faq-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
+        <div class="faq-a"><p>When you receive something suspicious, take a screenshot and send it through WhatsApp or email. We review it and tell you in plain English whether it looks safe or suspicious, and what you should do next.</p></div>
+      </div>
+
+      <div class="faq-row">
+        <button class="faq-q" aria-expanded="false">
+          <span>Can I buy this for my parent or grandparent?</span>
+          <span class="faq-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
+        <div class="faq-a"><p>Yes. Many people subscribe for a loved one. You can help them get set up, and they can send suspicious messages whenever they are unsure.</p></div>
+      </div>
+
+      <div class="faq-row">
+        <button class="faq-q" aria-expanded="false">
+          <span>Can you guarantee I will never be scammed?</span>
+          <span class="faq-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
+        <div class="faq-a"><p>No service can guarantee that. Senior Scam Shield helps reduce risk by giving you timely alerts and a trusted person to ask before taking action.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== FINAL CTA =============== -->
+<section class="section section-cta" id="pricing">
+  <div class="container">
+    <div class="final-cta">
+      <svg class="cta-doodle cta-doodle-2" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="40" fill="none" stroke="#181818" stroke-width="3" stroke-dasharray="2 8"/>
+      </svg>
+      <svg class="cta-doodle cta-doodle-3" viewBox="0 0 60 60" aria-hidden="true">
+        <path d="M5 30 q 10 -25, 25 -25 t 25 25 q -10 25, -25 25 t -25 -25z" fill="none" stroke="#181818" stroke-width="3"/>
+      </svg>
+
+      <div class="final-cta-inner">
+        <div class="final-cta-text">
+          <span class="section-eyebrow eyebrow-on-lime">$5/month · cancel anytime</span>
+          <h2 class="final-title">
+            Give yourself — or someone<br/>
+            you love — a safer way<br/>
+            to <span class="italic">pause and ask.</span>
+          </h2>
+          <p class="final-copy">For $5/month, Senior Scam Shield gives older adults weekly scam alerts and a real person to check suspicious messages.</p>
+          <a href="https://seniorscamshield.gumroad.com/l/kubmg" class="btn btn-dark btn-large" data-checkout target="_blank" rel="noopener">
+            Join Senior Scam Shield
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <span class="micro-note">
+            <img class="doodle doodle-micro" src="public/assets/doodles/2.webp" alt="" loading="lazy" width="500" height="500"/>
+            Cancel anytime · 30-day money-back guarantee
+          </span>
+        </div>
+
+        <div class="final-cta-art">
+          <img class="doodle doodle-final" src="public/assets/doodles/3.webp"
+               alt="Family support — staying safe together" loading="lazy" width="500" height="500"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- =============== FOOTER =============== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#" class="brand brand-light">
+        <img src="public/logo.svg" alt="" class="brand-mark" width="40" height="40" />
+        <span class="brand-name">Senior Scam Shield</span>
+      </a>
+      <p class="footer-tag">By The Data Guy</p>
+    </div>
+
+    <div class="footer-cols">
+      <div>
+        <h4>Get in touch</h4>
+        <address>
+          <a href="mailto:seniorscamshield@gmail.com" class="footer-link">seniorscamshield@gmail.com</a>
+        </address>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <a href="#about" class="footer-link">About us</a>
+        <a href="#protection" class="footer-link">Protection</a>
+        <a href="#how-it-works" class="footer-link">How it works</a>
+        <a href="#reviews" class="footer-link">Reviews</a>
+        <a href="#pricing" class="footer-link">Pricing</a>
+        <a href="blog/" class="footer-link">Blog</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-disclaimer">
+    <p>Senior Scam Shield provides scam awareness information and personal message review. It is not a guarantee against fraud.</p>
+    <p class="footer-copy">© 2026 Senior Scam Shield. Made with care for the people who raised us.</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
