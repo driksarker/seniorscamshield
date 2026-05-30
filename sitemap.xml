@@ -1,33 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://seniorscamshield.io/</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://seniorscamshield.io/public/og-image.png</image:loc>
+      <image:title>Senior Scam Shield — weekly scam alerts and real-human message checks for $5/month</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://seniorscamshield.io/public/logo.svg</image:loc>
+      <image:title>Senior Scam Shield logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://seniorscamshield.io/public/assets/doodles/1.webp</image:loc>
+      <image:title>Friendly shield with checkmark — Senior Scam Shield mascot</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://seniorscamshield.io/blog/</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://seniorscamshield.io/public/og-image.png</image:loc>
+      <image:title>Senior Scam Shield Scam Awareness Blog</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://seniorscamshield.io/blog/medicare-card-renewal-scam.html</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://seniorscamshield.io/public/og-image.png</image:loc>
+      <image:title>The Medicare card renewal scam: 3 things you should never click</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://seniorscamshield.io/blog/social-security-suspended-call.html</loc>
     <lastmod>2026-05-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://seniorscamshield.io/public/og-image.png</image:loc>
+      <image:title>"Your Social Security has been suspended." Is it real? (No.)</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://seniorscamshield.io/blog/grandparent-scam.html</loc>
     <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://seniorscamshield.io/public/og-image.png</image:loc>
+      <image:title>The grandparent scam, in their own words — what to listen for</image:title>
+    </image:image>
   </url>
 </urlset>

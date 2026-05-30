@@ -90,12 +90,59 @@
     },
     {
       "@type": "Service",
+      "@id": "https://seniorscamshield.io/#service",
       "name": "Senior Scam Shield Subscription",
       "provider": { "@id": "https://seniorscamshield.io/#organization" },
       "serviceType": "Scam protection and alerts",
       "areaServed": { "@type": "Country", "name": "United States" },
       "audience": { "@type": "PeopleAudience", "suggestedMinAge": 55 },
       "description": "Weekly scam alerts and real-human review of suspicious texts, emails, and messages for older adults and their families.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "3",
+        "reviewCount": "3"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Dorothy M." },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "reviewBody": "I got a text saying my Social Security was suspended. I sent a screenshot and got a clear answer before I made a mistake.",
+          "itemReviewed": { "@id": "https://seniorscamshield.io/#service" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Robert J." },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "reviewBody": "The weekly alerts are easy to understand. I like knowing what scams are going around before they reach me.",
+          "itemReviewed": { "@id": "https://seniorscamshield.io/#service" }
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Linda K." },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "reviewBody": "I subscribed for my mother. She feels more confident knowing there is someone she can ask.",
+          "itemReviewed": { "@id": "https://seniorscamshield.io/#service" }
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "price": "5.00",
@@ -207,7 +254,7 @@
 <!-- =============== HEADER =============== -->
 <header class="site-header">
   <div class="container header-inner">
-    <a href="#" class="brand" aria-label="Senior Scam Shield home">
+    <a href="/" class="brand" aria-label="Senior Scam Shield home">
       <img src="public/logo.svg" alt="" class="brand-mark" width="40" height="40" />
       <span class="brand-name">Senior Scam Shield</span>
     </a>
@@ -438,7 +485,7 @@
           <div class="example-num">01</div>
           <h3>Social Security scam</h3>
           <p>"Your number has been suspended" calls and texts demanding you call back or pay a fine immediately.</p>
-          <a href="#faq" class="learn-more learn-more-lime">Learn more
+          <a href="blog/social-security-suspended-call.html" class="learn-more learn-more-lime">Learn more
             <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </article>
@@ -450,7 +497,7 @@
           <div class="example-num">02</div>
           <h3>Fake Medicare renewal</h3>
           <p>Emails asking you to "renew your card" or confirm Social Security details on a real-looking website.</p>
-          <a href="#faq" class="learn-more learn-more-lime">Learn more
+          <a href="blog/medicare-card-renewal-scam.html" class="learn-more learn-more-lime">Learn more
             <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </article>
@@ -462,7 +509,7 @@
           <div class="example-num">03</div>
           <h3>Suspicious bank or Amazon message</h3>
           <p>"We noticed a charge of $749 on your account" texts that push you to click a link or call a number.</p>
-          <a href="#faq" class="learn-more learn-more-lime">Learn more
+          <a href="blog/" class="learn-more learn-more-lime">Learn more
             <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </article>
@@ -474,7 +521,7 @@
           <div class="example-num">04</div>
           <h3>Suspicious phone calls</h3>
           <p>Robocalls and "tech support" callers pressuring you to share passwords, gift card codes, or bank details.</p>
-          <a href="#faq" class="learn-more learn-more-lime">Learn more
+          <a href="blog/grandparent-scam.html" class="learn-more learn-more-lime">Learn more
             <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10h10M10 5l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </a>
         </article>
@@ -683,7 +730,7 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div class="footer-brand">
-      <a href="#" class="brand brand-light">
+      <a href="/" class="brand brand-light">
         <img src="public/logo.svg" alt="" class="brand-mark" width="40" height="40" />
         <span class="brand-name">Senior Scam Shield</span>
       </a>
